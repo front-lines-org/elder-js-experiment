@@ -9,8 +9,6 @@
     ...hook,
     link: helpers.permalinks.hooks({ slug: hook.hook.toLocaleLowerCase() }),
   }));
-
-  console.log(data.markdown.page)
 </script>
 
 <style>

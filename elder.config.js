@@ -29,7 +29,7 @@ module.exports = {
         blog: 'src/contents/articles', // if you want to add custom path to your route relative to the root directory
         page: 'src/contents/categories', // if you want to add custom path to your route relative to the root directory
       },
-      slugFormatter: (path, fm) => fm.customSlug || path,
+      slugFormatter: (path, fm) => fm.slug || path,
     },
     '@elderjs/plugin-browser-reload': {
       // this reloads your browser when nodemon restarts your server.

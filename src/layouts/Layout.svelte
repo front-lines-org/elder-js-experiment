@@ -1,8 +1,8 @@
 <script>
-  import style from '../../assets/style.css';
-  import smui from '../../assets/smui.css';
+  import '../../assets/style.css';
+  import '../../assets/smui.css';
   import Header from '../components/Header.svelte';
-  export let templateHtml, settings;
+  export let data, templateHtml, request;
 </script>
 
 <style>
@@ -16,10 +16,7 @@
 
 <svelte:head>
   <!-- Material Icons -->
-  <link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <script>
     document.addEventListener('ejs', (e) => {
       console.log('Layout.svelte > Component Mount Detail', e.detail);
@@ -27,7 +24,10 @@
   </script>
 </svelte:head>
 <div class="container">
-  <Header hydrate-client={{}}/>
+  <Header
+    hydrate-client={{
+      pages: data.markdown.page.map((page) => ({ title: page.frontmatter.title, slug: page.slug })),
+      url: request.permalink,
+    }} />
   {@html templateHtml}
 </div>
-<div class="footer">Built with ❤ and <a href="https://elderguide.com/tech/elderjs/">Elder.js</a></div>

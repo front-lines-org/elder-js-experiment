@@ -2,20 +2,22 @@
   <div style="margin-bottom: 10px;"> 
     <TopBar />
   </div>
-    <TabBar tabs={['Home', 'Ukraine', 'Live map', 'Africa', 'Middle East', 'Myanmar', 'Other', 'About us', 'Contribute', 'Links']} let:tab bind:active>
-      <Tab {tab} href="/{tab.replace(/ /g, '_')}">
+    <TabBar tabs={['Home', ...pages.map((page) => page.title)]} let:tab bind:active>
+      <Tab {tab} href="/{pagesMap.get(tab) ?? ''}">
         <Label href="test">{tab}</Label>
       </Tab>
     </TabBar>
-    <pre class="status">Selected: {active}</pre>
   </div>
   
   <script>
     import Tab, { Label } from '@smui/tab';
     import TabBar from '@smui/tab-bar';
     import TopBar from './TopBar.svelte';
-  
-    let active = 'Home';
+    // props
+    export let pages, url;
+    
+    let active = pages.find((page) => url.includes(page.slug))?.title || 'Home';
+    let pagesMap = new Map(pages.map((page) => [page.title, page.slug]));
   </script>
   
   <style> 
