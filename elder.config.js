@@ -1,4 +1,5 @@
 require('dotenv').config();
+const sharp = require('sharp');
 module.exports = {
   origin: 'https://example.com', // TODO: update this. The URL of your site's root, without a trailing slash
   lang: 'en',
@@ -35,6 +36,31 @@ module.exports = {
       // this reloads your browser when nodemon restarts your server.
       port: 8080,
       reload: true, // if you are having issues with reloading not working, change to true.
+    },
+    '@elderjs/plugin-images': {
+      folders: [
+        {
+          src: '/images/*', // glob of where your original images are. Relative to rootDir/process.cwd() defined in your elder.config.js. Careful with **.
+          // src: 'articles/**/*' is also acceptable
+          output: '/images/', // where files should be put within the distDir defined in your elder.config.js.
+        },
+      ],
+      placeholder: {
+        // placeholder settings. See sharp.
+        resize: {
+          width: 100,
+          fit: sharp.fit.cover,
+        },
+        jpeg: {
+          // resize settings for the placeholder. See sharp.
+          quality: 90,
+          progressive: true,
+          optimizeScans: true,
+          chromaSubsampling: '4:2:0',
+          trellisQuantisation: true,
+          quantisationTable: 2,
+        },
+      },
     },
     // '@elderjs/plugin-seo-check': {
     //   display: ['none'], // If the errors are too verbose remove 'warnings'

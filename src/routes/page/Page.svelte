@@ -2,7 +2,6 @@
   import BlogTeaser from '../../components/BlogTeaser.svelte';
   export let data, helpers, request, settings; // data is mainly being populated from the @elderjs/plugin-markdown
   const { html, frontmatter } = data;
-  console.log(helpers.blog);
 </script>
 
 <div class="blog">
