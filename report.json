@@ -1,0 +1,2747 @@
+{
+  "success": false,
+  "meta": {
+    "whatLinksWhere": {
+      "/Home": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Ukraine": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Live_map": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Africa": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Middle_East": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Myanmar": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Other": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/About_us": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Contribute": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/Links": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "https://elderguide.com/tech/elderjs/": [
+        "/allrequests/",
+        "/bootstrap/",
+        "/buildcomplete/",
+        "/compilehtml/",
+        "/customizehooks/",
+        "/data/",
+        "/error/",
+        "/getting-started2/",
+        "/getting-started2/",
+        "/head/",
+        "/html/",
+        "/",
+        "/",
+        "/middleware/",
+        "/request/",
+        "/requestcomplete/",
+        "/shortcodes/",
+        "/simple/",
+        "/stacks/"
+      ],
+      "/simple/": [
+        "/getting-started2/",
+        "/"
+      ],
+      "https://discord.gg/rxc2yh5Pxa": [
+        "/getting-started2/"
+      ],
+      "https://github.com/Elderjs/plugins/tree/master/packages/seo-check": [
+        "/getting-started2/"
+      ],
+      "https://github.com/Elderjs/plugins/tree/master/packages/images": [
+        "/getting-started2/"
+      ],
+      "https://github.com/Elderjs/plugins/tree/master/packages/critical-path-css": [
+        "/getting-started2/"
+      ],
+      "https://github.com/Elderjs/plugins/tree/master/packages/sitemap": [
+        "/getting-started2/"
+      ],
+      "https://github.com/Elderjs/plugins/tree/master/packages/references": [
+        "/getting-started2/"
+      ],
+      "https://github.com/kiuKisas/elderjs-plugin-i18n": [
+        "/getting-started2/"
+      ],
+      "https://github.com/Elderjs/elderjs/discussions/categories/plugin-ideas": [
+        "/getting-started2/"
+      ],
+      "https://developers.cloudflare.com/pages/how-to/elderjs": [
+        "/getting-started2/"
+      ],
+      "/middleware/": [
+        "/getting-started2/",
+        "/"
+      ],
+      "https://github.com/Elderjs/template/issues": [
+        "/"
+      ],
+      "/getting-started2/": [
+        "/"
+      ],
+      "/getting-started/": [
+        "/"
+      ],
+      "https://svelte.dev/examples#clock": [
+        "/"
+      ],
+      "https://elderguide.com/tech/elderjs/#hydration-options": [
+        "/"
+      ],
+      "/customizehooks/": [
+        "/"
+      ],
+      "/bootstrap/": [
+        "/"
+      ],
+      "/allrequests/": [
+        "/"
+      ],
+      "/request/": [
+        "/"
+      ],
+      "/data/": [
+        "/"
+      ],
+      "/shortcodes/": [
+        "/"
+      ],
+      "/stacks/": [
+        "/"
+      ],
+      "/head/": [
+        "/"
+      ],
+      "/compilehtml/": [
+        "/"
+      ],
+      "/html/": [
+        "/"
+      ],
+      "/requestcomplete/": [
+        "/"
+      ],
+      "/error/": [
+        "/"
+      ],
+      "/buildcomplete/": [
+        "/"
+      ]
+    }
+  },
+  "results": {
+    "brokenInternalLinks": [
+      {
+        "link": "/Home",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/allrequests/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/bootstrap/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/buildcomplete/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/compilehtml/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/customizehooks/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/data/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/data/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/error/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/error/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/getting-started2/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/head/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/head/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/html/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/html/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/"
+      },
+      {
+        "link": "/getting-started/",
+        "linker": "/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/middleware/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/request/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/request/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/requestcomplete/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/shortcodes/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/simple/"
+      },
+      {
+        "link": "/Home",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Ukraine",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Live_map",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Africa",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Middle_East",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Myanmar",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Other",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/About_us",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Contribute",
+        "linker": "/stacks/"
+      },
+      {
+        "link": "/Links",
+        "linker": "/stacks/"
+      }
+    ],
+    "/allrequests/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/bootstrap/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/buildcomplete/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/compilehtml/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/customizehooks/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/data/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/error/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/getting-started2/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/head/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/html/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/middleware/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/request/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/requestcomplete/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/shortcodes/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/simple/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ],
+    "/stacks/": [
+      {
+        "message": "Internal links should be lowercase: [Home\n    \n  \n\n  ](/Home) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Ukraine\n    \n  \n\n  ](/Ukraine) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Live map\n    \n  \n\n  ](/Live_map) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Africa\n    \n  \n\n  ](/Africa) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Middle East\n    \n  \n\n  ](/Middle_East) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Myanmar\n    \n  \n\n  ](/Myanmar) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Other\n    \n  \n\n  ](/Other) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [About us\n    \n  \n\n  ](/About_us) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Contribute\n    \n  \n\n  ](/Contribute) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should be lowercase: [Links\n    \n  \n\n  ](/Links) is not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Home\n    \n  \n\n  ](/Home) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Ukraine\n    \n  \n\n  ](/Ukraine) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Live map\n    \n  \n\n  ](/Live_map) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Africa\n    \n  \n\n  ](/Africa) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Middle East\n    \n  \n\n  ](/Middle_East) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Myanmar\n    \n  \n\n  ](/Myanmar) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Other\n    \n  \n\n  ](/Other) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [About us\n    \n  \n\n  ](/About_us) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Contribute\n    \n  \n\n  ](/Contribute) does not.",
+        "priority": 80,
+        "level": "warnings"
+      },
+      {
+        "message": "Internal links should include a trailing slash: [Links\n    \n  \n\n  ](/Links) does not.",
+        "priority": 80,
+        "level": "warnings"
+      }
+    ]
+  }
+}

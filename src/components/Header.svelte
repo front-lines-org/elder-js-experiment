@@ -1,14 +1,12 @@
 <div>
-  <div style="margin-bottom: 5px;"> 
+  <div style="margin-bottom: 10px;"> 
     <TopBar />
   </div>
-    <hr class="divider"/>
     <TabBar tabs={['Home', 'Ukraine', 'Live map', 'Africa', 'Middle East', 'Myanmar', 'Other', 'About us', 'Contribute', 'Links']} let:tab bind:active>
-      <Tab {tab}>
+      <Tab {tab} href="/{tab.replace(/ /g, '_')}">
         <Label href="test">{tab}</Label>
       </Tab>
     </TabBar>
-    <hr class="divider"/>
     <pre class="status">Selected: {active}</pre>
   </div>
   
@@ -21,7 +19,13 @@
   </script>
   
   <style> 
-    hr.divider {
-      margin: 0;
+    :global(.mdc-tab-bar) {
+      border-width: 0;
+      border-style: solid;
+      border-color: #e5e7eb;
+      border-right-color: transparent;
+      border-left-color: transparent;
+      border-bottom-width: 1px;
+      border-top-width: 1px;
     }
   </style>

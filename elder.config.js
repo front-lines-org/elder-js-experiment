@@ -24,17 +24,22 @@ module.exports = {
   },
   plugins: {
     '@elderjs/plugin-markdown': {
-      routes: ['blog'],
+      routes: ['blog', 'page'],
+      contents: {
+        blog: 'src/contents/articles', // if you want to add custom path to your route relative to the root directory
+        page: 'src/contents/categories', // if you want to add custom path to your route relative to the root directory
+      },
+      slugFormatter: (path, fm) => fm.customSlug || path,
     },
     '@elderjs/plugin-browser-reload': {
       // this reloads your browser when nodemon restarts your server.
       port: 8080,
       reload: true, // if you are having issues with reloading not working, change to true.
     },
-    '@elderjs/plugin-seo-check': {
-      display: ['errors', 'warnings'], // If the errors are too verbose remove 'warnings'
-      //writeLocation: './report.json', // if you want to write a report of errors
-    },
+    // '@elderjs/plugin-seo-check': {
+    //   display: ['none'], // If the errors are too verbose remove 'warnings'
+    //   writeLocation: './report.json', // if you want to write a report of errors
+    // },
   },
   shortcodes: { closePattern: '}}', openPattern: '{{' },
 };

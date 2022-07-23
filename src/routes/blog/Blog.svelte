@@ -1,6 +1,7 @@
 <script>
   export let data, request, settings; // data is mainly being populated from the @elderjs/plugin-markdown
   const { html, frontmatter } = data;
+  console.log(data);
 </script>
 
 <style>

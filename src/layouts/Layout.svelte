@@ -6,8 +6,9 @@
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
   .container {
-    max-width: 900px;
+    max-width: 1185px;
     margin: 0 auto;
     padding: 1rem;
   }
@@ -18,16 +19,6 @@
   <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  />
-  <!-- Roboto -->
-  <link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700"
-  />
-  <!-- Roboto Mono -->
-  <link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Roboto+Mono"
   />
   <script>
     document.addEventListener('ejs', (e) => {
