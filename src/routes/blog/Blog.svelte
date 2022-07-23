@@ -22,7 +22,9 @@
       {frontmatter.description}
     </p>
     <!-- svelte-ignore a11y-missing-attribute -->
-    {@html helpers.images.picture(`/images/${frontmatter.img}`, {maxWidth: 2000, class:'', alt: '', ignoreCssString: false})}
+    {#if frontmatter.img}
+      {@html helpers.images.picture(`/images/${frontmatter.img}`, {maxWidth: 2000, class:'', alt: '', ignoreCssString: false})}
+    {/if}
     <p class="text-xs font-light mt-0 text-slate-300 not-prose">
       Image: Ukraine ministry of Defense. Troops training
     </p>
