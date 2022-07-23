@@ -1,7 +1,7 @@
 require('dotenv').config();
 const sharp = require('sharp');
 module.exports = {
-  origin: 'https://example.com', // TODO: update this. The URL of your site's root, without a trailing slash
+  origin: 'https://front-lines-org.github.io/elder-js-experiment', // TODO: update this. The URL of your site's root, without a trailing slash
   lang: 'en',
   srcDir: 'src',
   distDir: 'public',
@@ -42,7 +42,7 @@ module.exports = {
         {
           src: '/images/*', // glob of where your original images are. Relative to rootDir/process.cwd() defined in your elder.config.js. Careful with **.
           // src: 'articles/**/*' is also acceptable
-          output: '/images/', // where files should be put within the distDir defined in your elder.config.js.
+          output: './node_modules/images/', // where files should be put within the distDir defined in your elder.config.js.
         },
       ],
       placeholder: {
