@@ -1,5 +1,5 @@
-<div>
-  <div style="margin-bottom: 10px;"> 
+<div class="mb-8">
+  <div class="mb-3"> 
     <TopBar />
   </div>
     <TabBar tabs={['Home', ...pages.map((page) => page.title)]} let:tab bind:active>

@@ -17,6 +17,7 @@
 <svelte:head>
   <!-- Material Icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link href="/tailwind.css" rel="stylesheet" />
   <script>
     document.addEventListener('ejs', (e) => {
       console.log('Layout.svelte > Component Mount Detail', e.detail);
