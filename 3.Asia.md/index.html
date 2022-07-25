@@ -1,8 +1,38 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" data-svelte="svelte-1a6gpgv"><link href="/tailwind.css" rel="stylesheet" data-svelte="svelte-1a6gpgv"><script data-svelte="svelte-1a6gpgv">document.addEventListener('ejs', (e) => {
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link href="/tailwind.css" rel="stylesheet" data-svelte="svelte-6u99mm"><script data-svelte="svelte-6u99mm">document.addEventListener('ejs', (e) => {
       console.log('Layout.svelte > Component Mount Detail', e.detail);
     });
-  </script><link rel="prefetch" href="/_elderjs/svelte/components/Header.69ec17e6.js" as="script"><link rel="stylesheet" href="/_elderjs/assets/svelte-930ea86e.css" media="all" /><style></style></head><body class="page">
-<div class="container svelte-k9lunc"><div class="header-component" id="header-ejs-kSwMzVRJDS"><div class="mb-8"><div class="mb-3">
+  </script><link rel="stylesheet" href="/_elderjs/assets/svelte-f1bb7877.css" media="all" /><style>.ejs {display: block;position: relative;height: 0;width: 100%;}
+    .ejs img.lazy{position: absolute;top: 0;left: 0;width: 100%;height: 100%;display: block;}
+    .ejs .placeholder{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      z-index:9;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: white;
+    }
+    .blur-up {
+      -webkit-filter: blur(1px);
+      filter: blur(1px);
+      transition: filter 400ms, -webkit-filter 400ms;
+    }
+    .blur-up.loaded {
+      -webkit-filter: blur(0);
+      filter: blur(0);
+    }
+    .placeholder {
+      transition: opacity 400ms;
+      opacity: 1;
+    }
+    .placeholder.loaded {
+      opacity:0;
+    }
+    </style></head><body class="page">
+<div class="container svelte-k9lunc"><div class="mb-8"><div class="mb-3">
 
 <header class="mdc-top-app-bar smui-top-app-bar--static smui-top-app-bar--color-secondary mdc-top-app-bar--dense" style=""><div class="mdc-top-app-bar__row"><section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"><span class="mdc-top-app-bar__title"><div class="logo svelte-16gd1gn">Front Lines
     </div></span>
@@ -45,76 +75,80 @@
   <span class="mdc-tab__ripple"></span></a></div></div>
 </div>
 </div>
-  </div></div>
-  <!-- HTML_TAG_START --><div class="blog"><div class="entries"><div class="entry"><a href="/czech_republic_considers_deployement_ukraine.md/">The Czech Republic considers the deployment of military troops in Ukraine</a>
-  <p>undefined</p></div><div class="entry"><a href="/donbas.md/">Fighting continues despite cease fire in Ukraine</a>
-  <p>undefined</p></div><div class="entry"><a href="/fuck/getting-started2.md/">Getting Started with Elder.js 3</a>
-  <p>You have the starter template of Elder.js running. So what is next? This guide will help you explore the project.</p></div><div class="entry"><a href="/getting-started2.md/">Getting Started with Elder.js 2</a>
-  <p>You have the starter template of Elder.js running. So what is next? This guide will help you explore the project.</p></div><div class="entry"><a href="/new.md/">U.S. Warns of Grim Toll if Putin Pursues Full Invasion of Ukraine</a>
-  <p>undefined</p></div><div class="entry"><a href="/russia_accused_of_supporting_ukrainian_rebels_advance.md/">Russia accused of supporting Ukrainian rebels' advance</a>
-  <p>undefined</p></div><div class="entry"><a href="/russia_invasion_2.md/">U.S. Accuses Russia of Planning to Fabricate an Attack by Ukraine</a>
-  <p>undefined</p></div><div class="entry"><a href="/russia_invasion.md/">Russia Is Positioned to Invade All of Ukraine, U.S. Says, but Kyiv Downplays War Talk</a>
-  <p>undefined</p></div><div class="entry"><a href="/Russia_launched_invasion.md/">Russia launches full-scale invasion against Ukraine</a>
-  <p>undefined</p></div><div class="entry"><a href="/russia_withdraws_chernobyl.md/">Russia launches full-scale invasion against Ukraine</a>
-  <p>undefined</p></div><div class="entry"><a href="/russian_retaliation.md/">Russia threatens retaliation if Ukraine demands not met</a>
-  <p>undefined</p></div><div class="entry"><a href="/Ukrainian_retake_airfield_from_seperatist.md/">Ukrainian troops retake airfield from separatist militants</a>
-  <p>undefined</p></div><div class="entry"><a href="/ukrainian_troops_high_alert_crimea_2016.md/">Ukrainian troops on Crimean border on high alert after rising tension with Russia</a>
-  <p>undefined</p></div><div class="entry"><a href="/us_warns_belarus.md/">U.S. Warns Belarus Against Helping Potential Russian Invasion Of Ukraine</a>
-  <p>undefined</p></div></div></div><!-- HTML_TAG_END --></div>
+  </div>
+  <!-- HTML_TAG_START --><div class="blog"><div class="entries"></div></div>
+
+<div class="grid overflow-hidden grid-lines lg:grid-cols-6 md:grid-cols-4 grid-rows-8 sm:grid-cols-2"><div class="box col-start-1"><div class="container-inset-border hover:underline svelte-r55wwa"><div class="child-3 svelte-r55wwa"><div class="hover:underline"><a href="/donbas.md/"><a class="text-black font-black" href="/donbas.md/">Fighting continues despite cease fire in Ukraine</a>
+    <p>undefined</p>
+    <!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 66.67%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAmAp//8QAHBAAAgICAwAAAAAAAAAAAAAAAgQDBQYSADJC/9oACAEBAAE/AM0yK4pL5pCrckWTAISCDsAbB425/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8AVv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine3-ejs-1280.webp" media="(min-width: 992px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-992.webp" media="(min-width: 768px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-768.webp, /images/ukraine3-ejs-768@2x.webp 2x" media="(min-width: 576px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-576.webp, /images/ukraine3-ejs-576@2x.webp 2x" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-400.webp, /images/ukraine3-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-350.webp, /images/ukraine3-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-200.webp, /images/ukraine3-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine3-ejs-1280.jpeg" media="(min-width: 992px)" /><source data-srcset="/images/ukraine3-ejs-992.jpeg" media="(min-width: 768px)" /><source data-srcset="/images/ukraine3-ejs-768.jpeg, /images/ukraine3-ejs-768@2x.jpeg 2x" media="(min-width: 576px)" /><source data-srcset="/images/ukraine3-ejs-576.jpeg, /images/ukraine3-ejs-576@2x.jpeg 2x" media="(min-width: 400px)" /><source data-srcset="/images/ukraine3-ejs-400.jpeg, /images/ukraine3-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine3-ejs-350.jpeg, /images/ukraine3-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine3-ejs-200.jpeg, /images/ukraine3-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAmAp//8QAHBAAAgICAwAAAAAAAAAAAAAAAgQDBQYSADJC/9oACAEBAAE/AM0yK4pL5pCrckWTAISCDsAbB425/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8AVv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></a></div></div>
+  <div class="child-1 svelte-r55wwa"></div>
+  <div class="child-2 svelte-r55wwa"></div></div></div>
+  <div class="box row-span-2 col-span-4"><div class="container-inset-border hover:underline svelte-r55wwa"><div class="child-3 svelte-r55wwa"><div class="hover:underline"><a href="/donbas.md/"><a class="text-black font-black" href="/donbas.md/">Fighting continues despite cease fire in Ukraine</a>
+    <p>undefined</p>
+    <!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 66.67%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAmAp//8QAHBAAAgICAwAAAAAAAAAAAAAAAgQDBQYSADJC/9oACAEBAAE/AM0yK4pL5pCrckWTAISCDsAbB425/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8AVv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine3-ejs-1280.webp" media="(min-width: 992px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-992.webp" media="(min-width: 768px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-768.webp, /images/ukraine3-ejs-768@2x.webp 2x" media="(min-width: 576px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-576.webp, /images/ukraine3-ejs-576@2x.webp 2x" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-400.webp, /images/ukraine3-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-350.webp, /images/ukraine3-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-200.webp, /images/ukraine3-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine3-ejs-1280.jpeg" media="(min-width: 992px)" /><source data-srcset="/images/ukraine3-ejs-992.jpeg" media="(min-width: 768px)" /><source data-srcset="/images/ukraine3-ejs-768.jpeg, /images/ukraine3-ejs-768@2x.jpeg 2x" media="(min-width: 576px)" /><source data-srcset="/images/ukraine3-ejs-576.jpeg, /images/ukraine3-ejs-576@2x.jpeg 2x" media="(min-width: 400px)" /><source data-srcset="/images/ukraine3-ejs-400.jpeg, /images/ukraine3-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine3-ejs-350.jpeg, /images/ukraine3-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine3-ejs-200.jpeg, /images/ukraine3-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAmAp//8QAHBAAAgICAwAAAAAAAAAAAAAAAgQDBQYSADJC/9oACAEBAAE/AM0yK4pL5pCrckWTAISCDsAbB425/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8AVv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></a></div></div>
+  <div class="child-1 svelte-r55wwa"></div>
+  <div class="child-2 svelte-r55wwa"></div></div></div>
+  <div class="box row-start-1 row-span-6 col-start-6"><div class="container-inset-border hover:underline svelte-r55wwa"><div class="child-3 svelte-r55wwa"><div class="box"><div class="hover:underline"><a href="/getting-started2.md/"><a class="text-black font-black" href="/getting-started2.md/">Getting Started with Elder.js 2</a>
+    <p>You have the starter template of Elder.js running. So what is next? This guide will help you explore the project.</p>
+    </a></div></div>
+      <div class="box"><div class="hover:underline"><a href="/russia_accused_of_supporting_ukrainian_rebels_advance.md/"><a class="text-black font-black" href="/russia_accused_of_supporting_ukrainian_rebels_advance.md/">Russia accused of supporting Ukrainian rebels' advance</a>
+    <p>undefined</p>
+    <!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 82.94%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACPArP/xAAcEAABAwUAAAAAAAAAAAAAAAACAAEEBREzUsH/2gAIAQEAAT8Aj1eeI53e+wgXF//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/AEL/xAAYEQACAwAAAAAAAAAAAAAAAAAAAgERMf/aAAgBAwEBPwCGatP/2Q==')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-1280.webp" media="(min-width: 992px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-992.webp, /images/ukraine(5)-ejs-992@2x.webp 2x" media="(min-width: 768px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-768.webp, /images/ukraine(5)-ejs-768@2x.webp 2x" media="(min-width: 576px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-576.webp, /images/ukraine(5)-ejs-576@2x.webp 2x" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-400.webp, /images/ukraine(5)-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-350.webp, /images/ukraine(5)-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-200.webp, /images/ukraine(5)-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine(5)-ejs-1280.jpeg" media="(min-width: 992px)" /><source data-srcset="/images/ukraine(5)-ejs-992.jpeg, /images/ukraine(5)-ejs-992@2x.jpeg 2x" media="(min-width: 768px)" /><source data-srcset="/images/ukraine(5)-ejs-768.jpeg, /images/ukraine(5)-ejs-768@2x.jpeg 2x" media="(min-width: 576px)" /><source data-srcset="/images/ukraine(5)-ejs-576.jpeg, /images/ukraine(5)-ejs-576@2x.jpeg 2x" media="(min-width: 400px)" /><source data-srcset="/images/ukraine(5)-ejs-400.jpeg, /images/ukraine(5)-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine(5)-ejs-350.jpeg, /images/ukraine(5)-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine(5)-ejs-200.jpeg, /images/ukraine(5)-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACPArP/xAAcEAABAwUAAAAAAAAAAAAAAAACAAEEBREzUsH/2gAIAQEAAT8Aj1eeI53e+wgXF//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/AEL/xAAYEQACAwAAAAAAAAAAAAAAAAAAAgERMf/aAAgBAwEBPwCGatP/2Q==" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></a></div></div>
+      <div class="box"><div class="hover:underline"><a href="/russia_invasion_2.md/"><a class="text-black font-black" href="/russia_invasion_2.md/">U.S. Accuses Russia of Planning to Fabricate an Attack by Ukraine</a>
+    <p>undefined</p>
+    <!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 66.96%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAC4gf/EAB0QAAICAQUAAAAAAAAAAAAAAAECAwQSABEhMTL/2gAIAQEAAT8AoU4TPdyMrDMbBpZWC9+QW41//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwB//9k=')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine6-ejs-1147.webp" media="(min-width: 992px)" /><source type="image/webp" data-srcset="/images/ukraine6-ejs-992.webp" media="(min-width: 768px)" /><source type="image/webp" data-srcset="/images/ukraine6-ejs-768.webp" media="(min-width: 576px)" /><source type="image/webp" data-srcset="/images/ukraine6-ejs-576.webp" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine6-ejs-400.webp, /images/ukraine6-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine6-ejs-350.webp, /images/ukraine6-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine6-ejs-200.webp, /images/ukraine6-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine6-ejs-1147.jpeg" media="(min-width: 992px)" /><source data-srcset="/images/ukraine6-ejs-992.jpeg" media="(min-width: 768px)" /><source data-srcset="/images/ukraine6-ejs-768.jpeg" media="(min-width: 576px)" /><source data-srcset="/images/ukraine6-ejs-576.jpeg" media="(min-width: 400px)" /><source data-srcset="/images/ukraine6-ejs-400.jpeg, /images/ukraine6-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine6-ejs-350.jpeg, /images/ukraine6-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine6-ejs-200.jpeg, /images/ukraine6-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAC4gf/EAB0QAAICAQUAAAAAAAAAAAAAAAECAwQSABEhMTL/2gAIAQEAAT8AoU4TPdyMrDMbBpZWC9+QW41//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwB//9k=" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></a></div></div>
+      <div class="box"><div class="hover:underline"><a href="/Russia_launched_invasion.md/"><a class="text-black font-black" href="/Russia_launched_invasion.md/">Russia launches full-scale invasion against Ukraine</a>
+    <p>undefined</p>
+    <!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 82.94%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACOA6//xAAbEAACAQUAAAAAAAAAAAAAAAABAgUAERNxwf/aAAgBAQABPwAy8glhnJ2qHlf/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/AIsP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAwEBPwCvT//Z')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine(6)-ejs-1280.webp" media="(min-width: 992px)" /><source type="image/webp" data-srcset="/images/ukraine(6)-ejs-992.webp, /images/ukraine(6)-ejs-992@2x.webp 2x" media="(min-width: 768px)" /><source type="image/webp" data-srcset="/images/ukraine(6)-ejs-768.webp, /images/ukraine(6)-ejs-768@2x.webp 2x" media="(min-width: 576px)" /><source type="image/webp" data-srcset="/images/ukraine(6)-ejs-576.webp, /images/ukraine(6)-ejs-576@2x.webp 2x" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine(6)-ejs-400.webp, /images/ukraine(6)-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine(6)-ejs-350.webp, /images/ukraine(6)-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine(6)-ejs-200.webp, /images/ukraine(6)-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine(6)-ejs-1280.jpeg" media="(min-width: 992px)" /><source data-srcset="/images/ukraine(6)-ejs-992.jpeg, /images/ukraine(6)-ejs-992@2x.jpeg 2x" media="(min-width: 768px)" /><source data-srcset="/images/ukraine(6)-ejs-768.jpeg, /images/ukraine(6)-ejs-768@2x.jpeg 2x" media="(min-width: 576px)" /><source data-srcset="/images/ukraine(6)-ejs-576.jpeg, /images/ukraine(6)-ejs-576@2x.jpeg 2x" media="(min-width: 400px)" /><source data-srcset="/images/ukraine(6)-ejs-400.jpeg, /images/ukraine(6)-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine(6)-ejs-350.jpeg, /images/ukraine(6)-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine(6)-ejs-200.jpeg, /images/ukraine(6)-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACOA6//xAAbEAACAQUAAAAAAAAAAAAAAAABAgUAERNxwf/aAAgBAQABPwAy8glhnJ2qHlf/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/AIsP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAwEBPwCvT//Z" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></a></div></div>
+      <div class="box"><div class="hover:underline"><a href="/russia_withdraws_chernobyl.md/"><a class="text-black font-black" href="/russia_withdraws_chernobyl.md/">Russia launches full-scale invasion against Ukraine</a>
+    <p>undefined</p>
+    <!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 82.94%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACPArP/xAAcEAABAwUAAAAAAAAAAAAAAAACAAEEBREzUsH/2gAIAQEAAT8Aj1eeI53e+wgXF//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/AEL/xAAYEQACAwAAAAAAAAAAAAAAAAAAAgERMf/aAAgBAwEBPwCGatP/2Q==')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-1280.webp" media="(min-width: 992px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-992.webp, /images/ukraine(5)-ejs-992@2x.webp 2x" media="(min-width: 768px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-768.webp, /images/ukraine(5)-ejs-768@2x.webp 2x" media="(min-width: 576px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-576.webp, /images/ukraine(5)-ejs-576@2x.webp 2x" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-400.webp, /images/ukraine(5)-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-350.webp, /images/ukraine(5)-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-200.webp, /images/ukraine(5)-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine(5)-ejs-1280.jpeg" media="(min-width: 992px)" /><source data-srcset="/images/ukraine(5)-ejs-992.jpeg, /images/ukraine(5)-ejs-992@2x.jpeg 2x" media="(min-width: 768px)" /><source data-srcset="/images/ukraine(5)-ejs-768.jpeg, /images/ukraine(5)-ejs-768@2x.jpeg 2x" media="(min-width: 576px)" /><source data-srcset="/images/ukraine(5)-ejs-576.jpeg, /images/ukraine(5)-ejs-576@2x.jpeg 2x" media="(min-width: 400px)" /><source data-srcset="/images/ukraine(5)-ejs-400.jpeg, /images/ukraine(5)-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine(5)-ejs-350.jpeg, /images/ukraine(5)-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine(5)-ejs-200.jpeg, /images/ukraine(5)-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACPArP/xAAcEAABAwUAAAAAAAAAAAAAAAACAAEEBREzUsH/2gAIAQEAAT8Aj1eeI53e+wgXF//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/AEL/xAAYEQACAwAAAAAAAAAAAAAAAAAAAgERMf/aAAgBAwEBPwCGatP/2Q==" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></a></div></div></div>
+  <div class="child-1 svelte-r55wwa"></div>
+  <div class="child-2 svelte-r55wwa"></div></div></div>
+  <div class="box"><div class="container-inset-border hover:underline svelte-r55wwa"><div class="child-3 svelte-r55wwa"><div class="hover:underline"><a href="/donbas.md/"><a class="text-black font-black" href="/donbas.md/">Fighting continues despite cease fire in Ukraine</a>
+    <p>undefined</p>
+    <!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 66.67%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAmAp//8QAHBAAAgICAwAAAAAAAAAAAAAAAgQDBQYSADJC/9oACAEBAAE/AM0yK4pL5pCrckWTAISCDsAbB425/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8AVv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine3-ejs-1280.webp" media="(min-width: 992px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-992.webp" media="(min-width: 768px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-768.webp, /images/ukraine3-ejs-768@2x.webp 2x" media="(min-width: 576px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-576.webp, /images/ukraine3-ejs-576@2x.webp 2x" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-400.webp, /images/ukraine3-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-350.webp, /images/ukraine3-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine3-ejs-200.webp, /images/ukraine3-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine3-ejs-1280.jpeg" media="(min-width: 992px)" /><source data-srcset="/images/ukraine3-ejs-992.jpeg" media="(min-width: 768px)" /><source data-srcset="/images/ukraine3-ejs-768.jpeg, /images/ukraine3-ejs-768@2x.jpeg 2x" media="(min-width: 576px)" /><source data-srcset="/images/ukraine3-ejs-576.jpeg, /images/ukraine3-ejs-576@2x.jpeg 2x" media="(min-width: 400px)" /><source data-srcset="/images/ukraine3-ejs-400.jpeg, /images/ukraine3-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine3-ejs-350.jpeg, /images/ukraine3-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine3-ejs-200.jpeg, /images/ukraine3-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAADAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAmAp//8QAHBAAAgICAwAAAAAAAAAAAAAAAgQDBQYSADJC/9oACAEBAAE/AM0yK4pL5pCrckWTAISCDsAbB425/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8AVv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></a></div></div>
+  <div class="child-1 svelte-r55wwa"></div>
+  <div class="child-2 svelte-r55wwa"></div></div></div>
+  <div class="box"><div class="container-inset-border hover:underline svelte-r55wwa"><div class="child-3 svelte-r55wwa"><div class="hover:underline"><a href="/getting-started2.md/"><a class="text-black font-black" href="/getting-started2.md/">Getting Started with Elder.js 2</a>
+    <p>You have the starter template of Elder.js running. So what is next? This guide will help you explore the project.</p>
+    </a></div></div>
+  <div class="child-1 svelte-r55wwa"></div>
+  <div class="child-2 svelte-r55wwa"></div></div></div>
+  <div class="box col-span-4"><div class="container-inset-border hover:underline svelte-r55wwa"><div class="child-3 svelte-r55wwa"><a href="/russia_withdraws_chernobyl.md/"><div class="flex flex-wrap justify-evenly"><div class="item w-44"><!-- HTML_TAG_START --><div class="ejs" style="padding-bottom: 82.94%;"><div class="placeholder" style="background-image: url('data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACPArP/xAAcEAABAwUAAAAAAAAAAAAAAAACAAEEBREzUsH/2gAIAQEAAT8Aj1eeI53e+wgXF//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/AEL/xAAYEQACAwAAAAAAAAAAAAAAAAAAAgERMf/aAAgBAwEBPwCGatP/2Q==')"></div><picture class=""><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-576.webp, /images/ukraine(5)-ejs-576@2x.webp 2x" media="(min-width: 400px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-400.webp, /images/ukraine(5)-ejs-400@2x.webp 2x" media="(min-width: 350px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-350.webp, /images/ukraine(5)-ejs-350@2x.webp 2x" media="(min-width: 200px)" /><source type="image/webp" data-srcset="/images/ukraine(5)-ejs-200.webp, /images/ukraine(5)-ejs-200@2x.webp 2x" /><source data-srcset="/images/ukraine(5)-ejs-576.jpeg, /images/ukraine(5)-ejs-576@2x.jpeg 2x" media="(min-width: 400px)" /><source data-srcset="/images/ukraine(5)-ejs-400.jpeg, /images/ukraine(5)-ejs-400@2x.jpeg 2x" media="(min-width: 350px)" /><source data-srcset="/images/ukraine(5)-ejs-350.jpeg, /images/ukraine(5)-ejs-350@2x.jpeg 2x" media="(min-width: 200px)" /><source data-srcset="/images/ukraine(5)-ejs-200.jpeg, /images/ukraine(5)-ejs-200@2x.jpeg 2x" /><img src="data:image/jpeg;base64,/9j/2wBDAAUHBwgICAgICAoMCggKDA4LCgoNEBIODgwNFBYZGBcSEBIaGyQeGRIjHBYWIiYgIiQmKSgoGh0sMC0pMCQoKin/2wBDAQMFBQUFBgYGBgcmBgcKIiYkJiQmKCgoKCYoJiYnKCgoKCgoKCgoKCgoKCcoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAEAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACPArP/xAAcEAABAwUAAAAAAAAAAAAAAAACAAEEBREzUsH/2gAIAQEAAT8Aj1eeI53e+wgXF//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/AEL/xAAYEQACAwAAAAAAAAAAAAAAAAAAAgERMf/aAAgBAwEBPwCGatP/2Q==" class="lazy blur-up"></picture></div><!-- HTML_TAG_END --></div>
+    <div class="item w-32 h-32 flex-grow p-4"><p style="color: #f9a1bc;" class="font-black">Ukraine</p>
+      <h3 class="text-black font-black">Russia launches full-scale invasion against Ukraine</h3>
+      <p>undefined</p></div></div></a></div>
+  <div class="child-1 svelte-r55wwa"></div>
+  <div class="child-2 svelte-r55wwa"></div></div></div></div><!-- HTML_TAG_END --></div>
     
-    <script type="module">
-            const requestIdleCallback = window.requestIdleCallback || ( cb => window.setTimeout(cb,1) );
-      
-const $$ejs = (par,eager)=>{
-  const $ejs = function(_ejs){return _ejs};
-  const prefix = '/_elderjs';
-  const initComponent = (target, component) => {
-
-    if(!!CustomEvent && target.id){
-      const split = target.id.split('-ejs-');
-      document.dispatchEvent(new CustomEvent('ejs', {
-        detail: {
-          category: 'elderjs',
-          action: 'hydrate',
-          target: target,
-          label: split[0] || target.id
-        }
-      }));
-    }
-
-    const propProm = ((typeof component.props === 'string') ? fetch(prefix+'/props/'+ component.props).then(p => p.json()).then(r => $ejs(r)) : new Promise((resolve) => resolve($ejs(component.props))));
-    const compProm = import(prefix + '/svelte/components/' + component.component);
-
-    Promise.all([compProm,propProm]).then(([comp,props])=>{
-      new comp.default({ 
-        target: target,
-        props: props,
-        hydrate: true
-      });
-    });
-  };
-  const IO = ('IntersectionObserver' in window) ? new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        observer.unobserve(entry.target);
-        const selected = par[entry.target.id];
-        initComponent(entry.target,selected)
-      }
-    });
-  }, { rootMargin: "200px",threshold: 0}) : undefined;
-  Object.keys(par).forEach(k => {
-    const el = document.getElementById(k);
-    if (!eager && IO) {
-        IO.observe(el);
-    } else {
-        initComponent(el,par[k]);
-    }
-  });
-};
-
-      
-      requestIdleCallback(function(){
-        $$ejs({'header-ejs-kSwMzVRJDS' : { 'component' : 'Header.69ec17e6.js', 'props' : {"pages":[{"title":"Ukraine","slug":"ukraine"},{"title":"Africa","slug":"2.africa.md"},{"title":"Asia","slug":"3.Asia.md"},{"title":"Nagarno-Karabakh","slug":"4.nagarno-karabakh.md"},{"title":"About us","slug":"999.about-us.md"}],"url":"/3.Asia.md/"}},})}, {timeout: 1000});</script>
     
+    <script>
+
+            function findAncestor (el, cls) {
+              if(!cls) return false;
+              while ((el = el.parentElement) && !el.classList.contains(cls));
+              return el;
+            }
+
+          var vanillaLazyLoad = document.createElement("script");
+          vanillaLazyLoad.src = "/static/vanillaLazy.min.js";
+          vanillaLazyLoad.rel = "preload";
+          vanillaLazyLoad.onload = function() {
+            var ll = new LazyLoad({
+              callback_loaded: function (element) {
+                var ejs = findAncestor(element, 'ejs');
+                if(ejs){
+                  var elements = ejs.getElementsByClassName("placeholder");
+                  if(elements.length > 0){
+                    elements[0].classList.add('loaded');
+                  }
+                }
+              }
+            });
+          };
+          document.getElementsByTagName('head')[0].appendChild(vanillaLazyLoad);
+          
+          </script>
     
     </body></html>
