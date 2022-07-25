@@ -48,12 +48,12 @@ module.exports = {
       placeholder: {
         // placeholder settings. See sharp.
         resize: {
-          width: 100,
+          width: 5,
           fit: sharp.fit.cover,
         },
         jpeg: {
           // resize settings for the placeholder. See sharp.
-          quality: 90,
+          quality: 80,
           progressive: true,
           optimizeScans: true,
           chromaSubsampling: '4:2:0',

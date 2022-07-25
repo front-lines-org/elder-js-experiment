@@ -2,7 +2,7 @@
 title: Russia accused of supporting Ukrainian rebels' advance
 shortDescription: Ukrainian President Petro Poroshenko accused Russia of "direct and open aggression" as his country's military were said to be battling a column of Russian tanks.
 description: Ukrainian troops on the Crimean border were put on full combat alert on Thursday, said Ukrainian officials, after tensions rose between Russia and Ukraine over the preceding several days.
-img: 'ukraine3.jpg'
+img: 'ukraine(5).jpg'
 author: 'Wikinews'
 authorLink: 'https://en.wikinews.org/wiki/Russia_launches_full-scale_invasion_against_Ukraine'
 publishDate: 02-09-2014

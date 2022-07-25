@@ -16,7 +16,6 @@
 
 <svelte:head>
   <!-- Material Icons -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link href="/tailwind.css" rel="stylesheet" />
   <script>
     document.addEventListener('ejs', (e) => {
@@ -26,9 +25,7 @@
 </svelte:head>
 <div class="container">
   <Header
-    hydrate-client={{
-      pages: data.markdown.page.map((page) => ({ title: page.frontmatter.title, slug: page.slug })),
-      url: request.permalink,
-    }} />
+    pages={data.markdown.page.map((page) => ({ title: page.frontmatter.title, slug: page.slug }))}
+    url={request.permalink} />
   {@html templateHtml}
 </div>

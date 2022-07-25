@@ -2,7 +2,7 @@
 title: Russia launches full-scale invasion against Ukraine
 shortDescription: Russian troops began an invasion of Ukraine by firing missiles at several cities yesterday.
 description: On state television, Russian President Vladimir Putin described this as the beginning of a "special military operation" in Ukraine with the aim of "the demilitarization and de-nazification of Ukraine" at 06:00 in Moscow, 03:00 UTC. After this announcement, President of Ukraine Volodymyr Zelensky imposed martial law nationwide.
-img: 'ukraine6.jpg'
+img: 'ukraine(5).jpg'
 author: 'Wikinews'
 authorLink: 'https://en.wikinews.org/wiki/Russia_launches_full-scale_invasion_against_Ukraine'
 category: 'News'
