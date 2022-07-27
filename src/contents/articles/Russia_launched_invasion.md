@@ -16,7 +16,7 @@ Putin said that Russia had been left with no choice but to defend itself against
 
 On Monday, Russia passed a bill recognizing the self-proclaimed Donetsk People's Republic and Luhansk People's Republic in eastern Ukraine as independent states, followed by agreements of friendship, cooperation, and assistance with the republics.
 
-United Nations Secretary General Antonio Guterres made a plea to Putin to stop the war "in the name of humanity" after Putin announced the military operation.
+United Nations Secretary General Antonio Guterres made a plea to Putin to stop the war "in the name of humanity" after Putin announced the military operation. 
 
 UK Prime Minister Boris Johnson has promised the West will respond "decisively" and that Putin had "chosen a path of bloodshed and destruction". The British Defence Secretary Ben Wallace and Foreign Secretary Liz Truss have also condemned the invasion, Truss adding they will "use every lever at our disposal to stop Putin in his tracks" and "nothing is off the table".
 
