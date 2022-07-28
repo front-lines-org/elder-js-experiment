@@ -4,7 +4,7 @@ module.exports = {
   origin: 'https://front-lines-org.github.io/elder-js-experiment', // TODO: update this. The URL of your site's root, without a trailing slash
   lang: 'en',
   srcDir: 'src',
-  distDir: './node_modules/.public_build',
+  distDir: 'public',
   rootDir: process.cwd(),
   build: {},
   prefix: '', // If you want your site to be built within a sub folder within your `distDir` you can use this.

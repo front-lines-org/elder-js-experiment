@@ -48,6 +48,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
           branch: gh-pages
-          folder: ./node_modules/.public_build
+          folder: public
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
