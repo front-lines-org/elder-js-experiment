@@ -12,4 +12,13 @@
 .prose .ejs .placeholder {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.placeholder {
+  filter: blur(15px);
+}
+
+.ejs {
+  overflow: hidden;
 }

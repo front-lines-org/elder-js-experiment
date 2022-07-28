@@ -2,6 +2,7 @@
   import HookDetail from '../../components/HookDetail.svelte';
   import BlogTeaser from '../../components/BlogTeaser.svelte';
   import Clock from '../../components/Clock.svelte';
+  import MapView from '../../components/MapView.svelte';
   export let data, helpers, settings;
 
   // add permalinks to the hook list so we can link to the posts.
@@ -85,6 +86,7 @@
   </div>
 {/if}
 
+<MapView hydrate-client={{}} />
 <div class="banner">
   <h1>Hello World: Welcome to Elder.js!</h1>
   <p>Woot! You've got Elder.js installed. This template is designed to show you the ropes of how things work.</p>
