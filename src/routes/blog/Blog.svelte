@@ -1,8 +1,13 @@
 <script>
   export let data, request, settings, helpers; // data is mainly being populated from the @elderjs/plugin-markdown
   const { html, frontmatter } = data;
-  
 </script>
+
+<style>
+  .primary-color {
+    color: #f9a1bc;
+  }
+</style>
 
 <svelte:head>
   <title>{frontmatter.title}</title>
@@ -11,10 +16,8 @@
 </svelte:head>
 
 {#if html}
-  <article class="prose prose-gray dark:prose-invert max-w-none prose-sm sm:prose mx-auto mt-9">
-    <h3 class="not-prose primary-color font-black">
-      Ukraine
-    </h3>
+  <article class="prose prose-xs xs:prose prose-gray dark:prose-invert max-w-none prose-sm sm:prose mx-auto mt-9">
+    <h3 class="not-prose primary-color font-black">Ukraine</h3>
     <h1 class="h1">
       {frontmatter.title}
     </h1>
@@ -23,11 +26,14 @@
     </p>
     <!-- svelte-ignore a11y-missing-attribute -->
     {#if frontmatter.img}
-      {@html helpers.images.picture(`/images/${frontmatter.img}`, {maxWidth: 2000, class:'', alt: '', ignoreCssString: false})}
+      {@html helpers.images.picture(`/images/${frontmatter.img}`, {
+        maxWidth: 2000,
+        class: '',
+        alt: '',
+        ignoreCssString: false,
+      })}
     {/if}
-    <p class="text-xs font-light mt-0 text-slate-300 not-prose">
-      Image: Ukraine ministry of Defense. Troops training
-    </p>
+    <p class="text-xs font-light mt-0 text-slate-300 not-prose">Image: Ukraine ministry of Defense. Troops training</p>
     {@html html}
   </article>
 {:else}
