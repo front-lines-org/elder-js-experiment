@@ -2,54 +2,124 @@
   import { onMount, onDestroy } from 'svelte';
   import { Map } from 'maplibre-gl';
   import 'maplibre-gl/dist/maplibre-gl.css';
+  import polygonSmooth from '@turf/polygon-smooth';
+  import mariupol from './mariupol';
+  import mariupol2 from './mariupol2';
+  import { interpolate } from 'flubber';
 
   let map;
   let mapContainer;
 
-  onMount(() => {
-    const apiKey = 'vlX898alh6ZZiPGxPpk8';
+  function rotateCamera(timestamp) {
+    // clamp the rotation between 0 -360 degrees
+    // Divide timestamp by 100 to slow rotation to ~10 degrees / sec
+    map.rotateTo((timestamp / 300) % 360, { duration: 0 });
+    // Request the next frame of the animation.
+    requestAnimationFrame(rotateCamera);
+  }
 
-    const initialState = { lat: 47.09514, lng: 37.54131, zoom: 14 };
+  function morphPolygon(timestamp) {
+    // clamp the rotation between 0 -360 degrees
+    // Divide timestamp by 100 to slow rotation to ~10 degrees / sec
+    const interpolater1 = interpolate(
+      mariupol.features[0].geometry.coordinates[0],
+      mariupol2.features[0].geometry.coordinates[0],
+      {
+        string: false,
+      },
+    );
+    const interpolater2 = interpolate(
+      mariupol.features[1].geometry.coordinates[0],
+      mariupol2.features[1].geometry.coordinates[0],
+      {
+        string: false,
+      },
+    );
+
+    map.getSource('kherson_russia').setData(
+      polygonSmooth(
+        {
+          ...mariupol.features[0],
+          geometry: {
+            ...mariupol.features[0].geometry,
+            coordinates: [interpolater1(((timestamp / 100) % 100) / 100)],
+          },
+        },
+        { iterations: 2 },
+      ),
+    );
+    map.getSource('kherson_ukraine').setData(
+      polygonSmooth(
+        {
+          ...mariupol.features[1],
+          geometry: {
+            ...mariupol.features[1].geometry,
+            coordinates: [interpolater2(((timestamp / 100) % 100) / 100)],
+          },
+        },
+        { iterations: 2 },
+      ),
+    );
+    // Request the next frame of the animation.
+    requestAnimationFrame(morphPolygon);
+  }
+
+  onMount(() => {
+    const apiKey = 'rANfIxfXlXQBoBgQIQPG';
+
+    const initialState = { lat: 46.65581, lng: 32.6178, zoom: 14 };
 
     map = new Map({
       container: mapContainer,
       style: `https://api.maptiler.com/maps/streets/style.json?key=${apiKey}`,
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
+      pitch: 120,
     });
 
     map.on('load', function () {
-      map.addSource('maine', {
+      // Start the animation.
+
+      var layers = map.getStyle().layers;
+      for (var i = 0; i < layers.length; i++) {
+        if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
+          // remove text labels
+          map.removeLayer(layers[i].id);
+        }
+      }
+
+      map.addSource('kherson_russia', {
         type: 'geojson',
-        data: {
-          type: 'Feature',
-          geometry: {
-            type: 'Polygon',
-            coordinates: [
-              [
-                [37.554144859313965, 47.108983227433264],
-                [37.54350185394287, 47.09756150171916],
-                [37.54161357879639, 47.083682706950036],
-                [37.544145584106445, 47.081987785295404],
-                [37.57427215576172, 47.08596199932665],
-                [37.56993770599365, 47.096422115902946],
-                [37.57169723510742, 47.101505341283996],
-                [37.554144859313965, 47.108983227433264],
-              ],
-            ],
-          },
-        },
+        data: polygonSmooth(mariupol.features[0], { iterations: 2 }),
       });
       map.addLayer({
-        id: 'maine',
+        id: 'kherson_russia',
         type: 'fill',
-        source: 'maine',
+        source: 'kherson_russia',
         layout: {},
         paint: {
           'fill-color': '#ff0000',
           'fill-opacity': 0.5,
         },
       });
+
+      map.addSource('kherson_ukraine', {
+        type: 'geojson',
+        data: polygonSmooth(mariupol.features[1], { iterations: 2 }),
+      });
+      map.addLayer({
+        id: 'kherson_ukraine',
+        type: 'fill',
+        source: 'kherson_ukraine',
+        layout: {},
+        paint: {
+          'fill-color': '#0000ff',
+          'fill-opacity': 0.5,
+        },
+      });
+
+      morphPolygon(0);
+      rotateCamera(0);
     });
   });
 
