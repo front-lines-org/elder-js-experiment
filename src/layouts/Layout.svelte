@@ -25,7 +25,9 @@
 </svelte:head>
 <div class="container">
   <Header
-    pages={data.markdown.page.map((page) => ({ title: page.frontmatter.title, slug: page.slug }))}
-    url={request.permalink} />
+    hydrate-client={{
+      pages: data.markdown.page.map((page) => ({ title: page.frontmatter.title, slug: page.slug })),
+      url: request.permalink,
+    }} />
   {@html templateHtml}
 </div>
