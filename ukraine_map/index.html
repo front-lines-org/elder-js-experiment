@@ -1,8 +1,8 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>error Hook Interface: Elder.js Example Project</title><meta name="description" content="Hook details for error in Elder.js from the Hook Interface" data-svelte="svelte-19ftz64"><link href="https://front-lines-org.github.io/elder-js-experiment/error/" rel="canonical" data-svelte="svelte-19ftz64"><link href="/tailwind.css" rel="stylesheet" data-svelte="svelte-6u99mm"><script data-svelte="svelte-6u99mm">document.addEventListener('ejs', (e) => {
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link href="/tailwind.css" rel="stylesheet" data-svelte="svelte-6u99mm"><script data-svelte="svelte-6u99mm">document.addEventListener('ejs', (e) => {
       console.log('Layout.svelte > Component Mount Detail', e.detail);
     });
-  </script><link rel="prefetch" href="/_elderjs/svelte/components/Header.3d012a77.js" as="script"><link rel="stylesheet" href="/_elderjs/assets/svelte-3e061db9.css" media="all" /><style></style></head><body class="hooks">
-<div class="container svelte-k9lunc"><div class="header-component" id="header-ejs-kvrGywrKCn"><div class="mb-8"><div class="mb-3">
+  </script><link rel="prefetch" href="/_elderjs/svelte/components/MapView.356a6eca.js" as="script"><link rel="prefetch" href="/_elderjs/svelte/components/Header.3d012a77.js" as="script"><link rel="stylesheet" href="/_elderjs/assets/svelte-3e061db9.css" media="all" /><style></style></head><body class="page">
+<div class="container svelte-k9lunc"><div class="header-component" id="header-ejs-rlrDnLdMjy"><div class="mb-8"><div class="mb-3">
 
 <header class="mdc-top-app-bar smui-top-app-bar--static smui-top-app-bar--color-secondary mdc-top-app-bar--dense" style=""><div class="mdc-top-app-bar__row"><section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"><span class="mdc-top-app-bar__title"><div class="logo svelte-16gd1gn">Front Lines
     </div></span>
@@ -18,13 +18,13 @@
 </header>
   <main class="">
 </main></div>
-    <div class="mdc-tab-bar" role="tablist"><div class="mdc-tab-scroller"><div class="mdc-tab-scroller__scroll-area" style=""><div class="mdc-tab-scroller__scroll-content" style=""><a href="/" class="mdc-tab mdc-tab--active" style="" role="tab" aria-selected="true" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label" href="test">Home</span>
-    </span>
-  <span class="mdc-tab-indicator mdc-tab-indicator--active"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline" style=""></span>
-</span>
-  <span class="mdc-tab__ripple"></span></a><a href="/ukraine" class="mdc-tab" style="" role="tab" aria-selected="false" tabindex="-1"><span class="mdc-tab__content"><span class="mdc-tab__text-label" href="test">Ukraine</span>
+    <div class="mdc-tab-bar" role="tablist"><div class="mdc-tab-scroller"><div class="mdc-tab-scroller__scroll-area" style=""><div class="mdc-tab-scroller__scroll-content" style=""><a href="/" class="mdc-tab" style="" role="tab" aria-selected="false" tabindex="-1"><span class="mdc-tab__content"><span class="mdc-tab__text-label" href="test">Home</span>
     </span>
   <span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline" style=""></span>
+</span>
+  <span class="mdc-tab__ripple"></span></a><a href="/ukraine" class="mdc-tab mdc-tab--active" style="" role="tab" aria-selected="true" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label" href="test">Ukraine</span>
+    </span>
+  <span class="mdc-tab-indicator mdc-tab-indicator--active"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline" style=""></span>
 </span>
   <span class="mdc-tab__ripple"></span></a><a href="/ukraine_map" class="mdc-tab" style="" role="tab" aria-selected="false" tabindex="-1"><span class="mdc-tab__content"><span class="mdc-tab__text-label" href="test">Ukraine Map</span>
     </span>
@@ -50,33 +50,8 @@
 </div>
 </div>
   </div></div>
-  <!-- HTML_TAG_START -->
-
-<a href="/" class="svelte-bvr7j8">← Home</a>
-
-<h1>Elder.js Hook: error</h1>
-
-<div class="hook svelte-azdmmt">
-
-  <div class="overview svelte-azdmmt"><span class="hook-name">error</span>
-    : Executed only if the script has encountered errors and they are pushed to the errors array.</div>
-  <div class="use svelte-azdmmt"><!-- HTML_TAG_START --><p>As the script encounters errors, they are collected and presented on this hook at the end of a request and the end of an entire build.</p><!-- HTML_TAG_END --></div>
-
-  <div class="list svelte-azdmmt"><strong>Props</strong> : <div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="Includes two functions: perf.start('thingToTrack') and perf.end('thingToTrack') which allows easily adding tracking to Elder.js' perf reporting which can be toggled under debug.performance in your elder.config.js file.">perf
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object of helpers loaded from `./src/helpers/index.js` in addition to the Elder.js provided helper functions.">helpers
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that is passed to Svelte templates as the &quot;data&quot; prop.">data
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object representing the elder.config.js and other details about the build.">settings
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that represents the parameters required to generate a specific page on a specific route. This object originating from the all() query of a route.js file.">request
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that is initially empty but is reserved for plugins and sites to add database or api access to.">query
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An array of errors collected during the build process.">errors
-      </div></div>
-  <div class="list svelte-azdmmt"><strong>Mutable</strong> : </div>
-
-  
-
-  <small>Stable · Location: Page.ts, build.ts</small></div>
-
-<img src="https://elderguide.com/images/elderjs-hooks-v100.png" alt="Elder.js hook Lifecycle" style="max-width:100%; margin:1rem 0;"><!-- HTML_TAG_END --></div>
+  <!-- HTML_TAG_START --><div class="mapview-component" id="mapview-ejs-RwVRzVCdXy"><div class="map-wrap svelte-17ht0rd"><a href="https://www.maptiler.com" class="watermark svelte-17ht0rd"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
+  <div class="map svelte-17ht0rd" id="map"></div></div></div><!-- HTML_TAG_END --></div>
     
     <script type="module">
             const requestIdleCallback = window.requestIdleCallback || ( cb => window.setTimeout(cb,1) );
@@ -130,7 +105,7 @@ const $$ejs = (par,eager)=>{
 
       
       requestIdleCallback(function(){
-        $$ejs({'header-ejs-kvrGywrKCn' : { 'component' : 'Header.3d012a77.js', 'props' : {"pages":[{"title":"Ukraine","slug":"ukraine"},{"title":"Ukraine Map","slug":"ukraine_map"},{"title":"Africa","slug":"2.africa.md"},{"title":"Asia","slug":"3.Asia.md"},{"title":"Nagarno-Karabakh","slug":"4.nagarno-karabakh.md"},{"title":"About us","slug":"999.about-us.md"}],"url":"/error/"}},})}, {timeout: 1000});</script>
+        $$ejs({'mapview-ejs-RwVRzVCdXy' : { 'component' : 'MapView.356a6eca.js', 'props' : {}},'header-ejs-rlrDnLdMjy' : { 'component' : 'Header.3d012a77.js', 'props' : {"pages":[{"title":"Ukraine","slug":"ukraine"},{"title":"Ukraine Map","slug":"ukraine_map"},{"title":"Africa","slug":"2.africa.md"},{"title":"Asia","slug":"3.Asia.md"},{"title":"Nagarno-Karabakh","slug":"4.nagarno-karabakh.md"},{"title":"About us","slug":"999.about-us.md"}],"url":"/ukraine_map/"}},})}, {timeout: 1000});</script>
     
     
     </body></html>
