@@ -119,7 +119,7 @@
       });
 
       morphPolygon(0);
-      rotateCamera(0);
+      // rotateCamera(0);
     });
   });
 
