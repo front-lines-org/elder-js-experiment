@@ -74,49 +74,86 @@
       style: `https://api.maptiler.com/maps/streets/style.json?key=${apiKey}`,
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
-      pitch: 120,
+      pitch: 70,
+      maxPitch: 70,
     });
+    map.setMaxPitch(75);
+    map.setPitch(75);
 
     map.on('load', function () {
       // Start the animation.
 
       var layers = map.getStyle().layers;
+
+
+      var layers = map.getStyle().layers;
       for (var i = 0; i < layers.length; i++) {
-        if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
+        if (layers[i].type === 'symbol' && layers[i].layout['text-field'] && !['place_city', 'place_region', 'place_town', 'place_village'].includes(layers[i].id)) {
           // remove text labels
+          console.log(layers[i]);
           map.removeLayer(layers[i].id);
         }
       }
+
+      // Find the index of the first symbol layer in the map style
+      var firstSymbolId;
+      console.log(map.getStyle().layers);
+      for (var i = 0; i < map.getStyle().layers.length; i++) {
+        if (map.getStyle().layers[i].id === 'building') {  
+          firstSymbolId = map.getStyle().layers[i].id;
+          break;
+        }
+        
+      }
+
+      map.setLayoutProperty('label_country', 'text-field', [
+        'format',
+        ['get', 'name_en'],
+        { 'font-scale': 1.2 },
+        '\n',
+        {},
+        ['get', 'name'],
+        {
+          'font-scale': 0.8,
+          'text-font': ['literal', ['libre Franklin']],
+        },
+      ]);
 
       map.addSource('kherson_russia', {
         type: 'geojson',
         data: polygonSmooth(mariupol.features[0], { iterations: 2 }),
       });
-      map.addLayer({
-        id: 'kherson_russia',
-        type: 'fill',
-        source: 'kherson_russia',
-        layout: {},
-        paint: {
-          'fill-color': '#ff0000',
-          'fill-opacity': 0.5,
+      map.addLayer(
+        {
+          id: 'kherson_russia',
+          type: 'fill',
+          source: 'kherson_russia',
+          layout: {},
+          paint: {
+            'fill-color': '#ff0000',
+            'fill-opacity': 0.5,
+          },
         },
-      });
+        firstSymbolId,
+      );
 
       map.addSource('kherson_ukraine', {
         type: 'geojson',
         data: polygonSmooth(mariupol.features[1], { iterations: 2 }),
       });
-      map.addLayer({
-        id: 'kherson_ukraine',
-        type: 'fill',
-        source: 'kherson_ukraine',
-        layout: {},
-        paint: {
-          'fill-color': '#0000ff',
-          'fill-opacity': 0.5,
+      map.addLayer(
+        {
+          id: 'kherson_ukraine',
+          type: 'fill',
+          source: 'kherson_ukraine',
+          layout: {},
+          paint: {
+            'fill-color': '#0000ff',
+            'fill-opacity': 0.5,
+          },
         },
-      });
+        firstSymbolId,
+      );
 
       morphPolygon(0);
       // rotateCamera(0);
