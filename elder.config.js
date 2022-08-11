@@ -1,7 +1,7 @@
 require('dotenv').config();
 const sharp = require('sharp');
 module.exports = {
-  origin: 'https://front-lines-org.github.io/elder-js-experiment', // TODO: update this. The URL of your site's root, without a trailing slash
+  origin: 'http://localhost:3000', // TODO: update this. The URL of your site's root, without a trailing slash
   lang: 'en',
   srcDir: 'src',
   distDir: 'public',

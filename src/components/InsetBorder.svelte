@@ -1,5 +1,6 @@
 <style>
   div.child-1 {
+    pointer-events: none;
     position: absolute;
     width: 100%;
     top: 0;
@@ -15,6 +16,7 @@
   }
 
   div.child-2 {
+    pointer-events: none;
     position: absolute;
     top: 0;
     width: 100%;
@@ -40,7 +42,7 @@
   }
 </style>
 
-<div class="container-inset-border hover:underline">
+<div class="container-inset-border">
   <div class="child-3">
     <slot />
   </div>
