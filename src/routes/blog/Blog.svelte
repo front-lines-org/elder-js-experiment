@@ -16,12 +16,12 @@
 </svelte:head>
 
 {#if html}
-  <article class="prose prose-xs xs:prose prose-gray dark:prose-invert max-w-none prose-sm sm:prose mx-auto mt-9">
+  <article class="prose prose-xs xs:prose max-w-none prose-sm sm:prose mx-auto mt-9">
     <h3 class="not-prose primary-color font-black">Ukraine</h3>
     <h1 class="h1">
       {frontmatter.title}
     </h1>
-    <p class="tw-font-bold">
+    <p class="font-bold">
       {frontmatter.description}
     </p>
     <!-- svelte-ignore a11y-missing-attribute -->
