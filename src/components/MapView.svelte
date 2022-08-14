@@ -5,6 +5,8 @@
   import polygonSmooth from '@turf/polygon-smooth';
   import mariupol from './mariupol';
   import mariupol2 from './mariupol2';
+  import ukraine1 from './ukraine1';
+  import ukraine2 from './ukraine2';
   import { interpolate } from 'flubber';
 
   let map;
@@ -18,49 +20,38 @@
     requestAnimationFrame(rotateCamera);
   }
 
-  function morphPolygon(timestamp) {
-    // clamp the rotation between 0 -360 degrees
-    // Divide timestamp by 100 to slow rotation to ~10 degrees / sec
-    const interpolater1 = interpolate(
-      mariupol.features[0].geometry.coordinates[0],
-      mariupol2.features[0].geometry.coordinates[0],
-      {
+  function morphGeojson(initialGeojson, resultGeojson, moment) {
+    console.log(moment);
+    return resultGeojson.features.map((feature) => {
+      const initialFeature = initialGeojson.features.find(
+        (initialFeature) => initialFeature.properties.id === feature.properties.nearestId,
+      );
+      const polygon = interpolate(initialFeature.geometry.coordinates[0], feature.geometry.coordinates[0], {
         string: false,
-      },
-    );
-    const interpolater2 = interpolate(
-      mariupol.features[1].geometry.coordinates[0],
-      mariupol2.features[1].geometry.coordinates[0],
-      {
-        string: false,
-      },
-    );
+      });
+      return {
+        ...feature,
+        geometry: { ...feature.geometry, coordinates: [polygon(moment)] },
+      };
+    });
+  }
 
-    map.getSource('kherson_russia').setData(
-      polygonSmooth(
-        {
-          ...mariupol.features[0],
-          geometry: {
-            ...mariupol.features[0].geometry,
-            coordinates: [interpolater1(((timestamp / 100) % 100) / 100)],
-          },
-        },
-        { iterations: 2 },
-      ),
-    );
-    map.getSource('kherson_ukraine').setData(
-      polygonSmooth(
-        {
-          ...mariupol.features[1],
-          geometry: {
-            ...mariupol.features[1].geometry,
-            coordinates: [interpolater2(((timestamp / 100) % 100) / 100)],
-          },
-        },
-        { iterations: 2 },
-      ),
-    );
+  async function morphPolygon(timestamp) {
+    const delta = ((timestamp / 100) % 10) / 10;
+    const result = morphGeojson(ukraine1, ukraine2, delta);
+    console.log(timestamp, {
+      type: 'FeatureCollection',
+      features: result,
+    });
+
+    map.getSource('kherson_russia').setData({
+      type: 'FeatureCollection',
+      features: result,
+    });
     // Request the next frame of the animation.
+    if(delta >=0.95){
+      await new Promise(r => setTimeout(r, 5050));
+    }
     requestAnimationFrame(morphPolygon);
   }
 
@@ -85,10 +76,13 @@
 
       var layers = map.getStyle().layers;
 
-
       var layers = map.getStyle().layers;
       for (var i = 0; i < layers.length; i++) {
-        if (layers[i].type === 'symbol' && layers[i].layout['text-field'] && !['place_city', 'place_region', 'place_town', 'place_village'].includes(layers[i].id)) {
+        if (
+          layers[i].type === 'symbol' &&
+          layers[i].layout['text-field'] &&
+          !['place_city', 'place_region', 'place_town', 'place_village'].includes(layers[i].id)
+        ) {
           // remove text labels
           console.log(layers[i]);
           map.removeLayer(layers[i].id);
@@ -99,11 +93,10 @@
       var firstSymbolId;
       console.log(map.getStyle().layers);
       for (var i = 0; i < map.getStyle().layers.length; i++) {
-        if (map.getStyle().layers[i].id === 'building') {  
+        if (map.getStyle().layers[i].id === 'building') {
           firstSymbolId = map.getStyle().layers[i].id;
           break;
         }
-        
       }
 
       map.setLayoutProperty('label_country', 'text-field', [
@@ -121,7 +114,7 @@
 
       map.addSource('kherson_russia', {
         type: 'geojson',
-        data: polygonSmooth(mariupol.features[0], { iterations: 2 }),
+        data: ukraine2,
       });
       map.addLayer(
         {
@@ -130,32 +123,14 @@
           source: 'kherson_russia',
           layout: {},
           paint: {
-            'fill-color': '#ff0000',
-            'fill-opacity': 0.5,
+            'fill-color': ['get', 'fill'],
+            'fill-opacity': 0.8,
           },
         },
         firstSymbolId,
       );
 
-      map.addSource('kherson_ukraine', {
-        type: 'geojson',
-        data: polygonSmooth(mariupol.features[1], { iterations: 2 }),
-      });
-      map.addLayer(
-        {
-          id: 'kherson_ukraine',
-          type: 'fill',
-          source: 'kherson_ukraine',
-          layout: {},
-          paint: {
-            'fill-color': '#0000ff',
-            'fill-opacity': 0.5,
-          },
-        },
-        firstSymbolId,
-      );
-
-      morphPolygon(0);
+      // morphPolygon(0);
       // rotateCamera(0);
     });
   });
