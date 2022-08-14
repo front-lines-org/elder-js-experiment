@@ -8,6 +8,7 @@
   import ukraine1 from './ukraine1';
   import ukraine2 from './ukraine2';
   import { interpolate } from 'flubber';
+  import linearInterpolator from 'lerp';
 
   let map;
   let mapContainer;
@@ -23,21 +24,24 @@
   function morphGeojson(initialGeojson, resultGeojson, moment) {
     console.log(moment);
     return resultGeojson.features.map((feature) => {
-      const initialFeature = initialGeojson.features.find(
-        (initialFeature) => initialFeature.properties.id === feature.properties.nearestId,
-      );
-      const polygon = interpolate(initialFeature.geometry.coordinates[0], feature.geometry.coordinates[0], {
-        string: false,
-      });
+      // const polygon = interpolate(initialFeature.geometry.coordinates[0], feature.geometry.coordinates[0], {
+      //   string: false,
+      // });
+
+      const polygon = feature.geometry.coordinates[0].map((coord, key) => [
+        linearInterpolator(feature.properties.oldPointsMap[key][0], coord[0], moment),
+        linearInterpolator(feature.properties.oldPointsMap[key][1], coord[1], moment),
+      ]);
+      console.log(polygon);
       return {
         ...feature,
-        geometry: { ...feature.geometry, coordinates: [polygon(moment)] },
+        geometry: { ...feature.geometry, coordinates: [polygon] },
       };
     });
   }
 
   async function morphPolygon(timestamp) {
-    const delta = ((timestamp / 100) % 10) / 10;
+    const delta = ((timestamp / 100) % 100) / 100;
     const result = morphGeojson(ukraine1, ukraine2, delta);
     console.log(timestamp, {
       type: 'FeatureCollection',
@@ -48,10 +52,7 @@
       type: 'FeatureCollection',
       features: result,
     });
-    // Request the next frame of the animation.
-    if(delta >=0.95){
-      await new Promise(r => setTimeout(r, 5050));
-    }
+
     requestAnimationFrame(morphPolygon);
   }
 
@@ -84,7 +85,6 @@
           !['place_city', 'place_region', 'place_town', 'place_village'].includes(layers[i].id)
         ) {
           // remove text labels
-          console.log(layers[i]);
           map.removeLayer(layers[i].id);
         }
       }
@@ -130,7 +130,7 @@
         firstSymbolId,
       );
 
-      // morphPolygon(0);
+      morphPolygon(0);
       // rotateCamera(0);
     });
   });
