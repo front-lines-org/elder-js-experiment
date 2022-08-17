@@ -16,6 +16,7 @@
 
 <svelte:head>
   <!-- Material Icons -->
+  <title>Front Lines</title>
   <link href="/tailwind.css" rel="stylesheet" />
   <script>
     document.addEventListener('ejs', (e) => {

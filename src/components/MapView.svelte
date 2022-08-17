@@ -9,9 +9,19 @@
   import ukraine2 from './ukraine2';
   import { interpolate } from 'flubber';
   import linearInterpolator from 'lerp';
+  import dayjs from 'dayjs';
 
   let map;
   let mapContainer;
+  let day = dayjs('2022-02-24');
+  let nextValue = null;
+  let current = null;
+  let delta = 0;
+  let lastCall = Date.now();
+  const fetchNextValue = async () => {
+    day = day.add(1, 'day');
+    nextValue = await fetch(`/geojson/ukraine/${day.format('YYYY-MM-DD')}.json`).then((res) => res.json());
+  };
 
   function rotateCamera(timestamp) {
     // clamp the rotation between 0 -360 degrees
@@ -21,8 +31,7 @@
     requestAnimationFrame(rotateCamera);
   }
 
-  function morphGeojson(initialGeojson, resultGeojson, moment) {
-    console.log(moment);
+  function morphGeojson(resultGeojson, moment) {
     return resultGeojson.features.map((feature) => {
       // const polygon = interpolate(initialFeature.geometry.coordinates[0], feature.geometry.coordinates[0], {
       //   string: false,
@@ -32,27 +41,32 @@
         linearInterpolator(feature.properties.oldPointsMap[key][0], coord[0], moment),
         linearInterpolator(feature.properties.oldPointsMap[key][1], coord[1], moment),
       ]);
-      console.log(polygon);
+
       return {
         ...feature,
         geometry: { ...feature.geometry, coordinates: [polygon] },
-      };
+      }
     });
   }
 
   async function morphPolygon(timestamp) {
-    const delta = ((timestamp / 100) % 100) / 100;
-    const result = morphGeojson(ukraine1, ukraine2, delta);
-    console.log(timestamp, {
-      type: 'FeatureCollection',
-      features: result,
-    });
+    delta = delta +  (Date.now() - lastCall) / 1000;
+    lastCall = Date.now();
+    console.log(delta, timestamp);
+    if (current && delta <= 0.5) {
+      const result = morphGeojson(current, delta * 2);
 
-    map.getSource('kherson_russia').setData({
-      type: 'FeatureCollection',
-      features: result,
-    });
+      map.getSource('kherson_russia').setData(polygonSmooth({
+        type: 'FeatureCollection',
+        features: result,
+      }, {iterations: 2}));
+    }
 
+    if (delta > 2) {
+      current = nextValue;
+      fetchNextValue().catch((err) => console.error(err));
+      delta = 0;
+    }
     requestAnimationFrame(morphPolygon);
   }
 
@@ -124,7 +138,7 @@
           layout: {},
           paint: {
             'fill-color': ['get', 'fill'],
-            'fill-opacity': 0.8,
+            'fill-opacity': 0.5,
           },
         },
         firstSymbolId,
@@ -162,6 +176,7 @@
 </style>
 
 <div class="map-wrap">
+  <h3> {day.format('YYYY-MM-DD')}</h3>
   <a href="https://www.maptiler.com" class="watermark"
     ><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo" /></a>
   <div class="map" id="map" bind:this={mapContainer} />
