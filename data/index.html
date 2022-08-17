@@ -1,8 +1,8 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>data Hook Interface: Elder.js Example Project</title><meta name="description" content="Hook details for data in Elder.js from the Hook Interface" data-svelte="svelte-19ftz64"><link href="http://localhost:3000/data/" rel="canonical" data-svelte="svelte-19ftz64"><link href="/tailwind.css" rel="stylesheet" data-svelte="svelte-6u99mm"><script data-svelte="svelte-6u99mm">document.addEventListener('ejs', (e) => {
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>data Hook Interface: Elder.js Example Project</title><meta name="description" content="Hook details for data in Elder.js from the Hook Interface" data-svelte="svelte-19ftz64"><link href="http://localhost:3000/data/" rel="canonical" data-svelte="svelte-19ftz64"><title>Front Lines</title><link href="/tailwind.css" rel="stylesheet" data-svelte="svelte-126q7v3"><script data-svelte="svelte-126q7v3">document.addEventListener('ejs', (e) => {
       console.log('Layout.svelte > Component Mount Detail', e.detail);
     });
-  </script><link rel="prefetch" href="/_elderjs/svelte/components/Header.fef20fc9.js" as="script"><link rel="stylesheet" href="/_elderjs/assets/svelte-e46ae418.css" media="all" /><style></style></head><body class="hooks">
-<div class="container svelte-k9lunc"><div class="header-component" id="header-ejs-FKFZTrLZzT"><div class="mb-8"><div class="mb-3">
+  </script><link rel="prefetch" href="/_elderjs/svelte/components/Header.c897bc10.js" as="script"><link rel="stylesheet" href="/_elderjs/assets/svelte-e46ae418.css" media="all" /><style></style></head><body class="hooks">
+<div class="container svelte-k9lunc"><div class="header-component" id="header-ejs-VDpjXXkMLW"><div class="mb-8"><div class="mb-3">
 
 <header class="mdc-top-app-bar smui-top-app-bar--static smui-top-app-bar--color-secondary mdc-top-app-bar--dense" style=""><div class="mdc-top-app-bar__row"><section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"><span class="mdc-top-app-bar__title"><div class="logo svelte-16gd1gn">Front Lines
     </div></span>
@@ -58,7 +58,7 @@
 <div class="hook svelte-azdmmt">
 
   <div class="overview svelte-azdmmt"><span class="hook-name">data</span>
-    : This hook is run after the route's "data" function has executed.</div>
+    : This hook is run after the route&#39;s &quot;data&quot; function has executed.</div>
   <div class="use svelte-azdmmt"><!-- HTML_TAG_START --><p>This hook is mainly used by plugins/hooks to offer functionality at the route level that is dependent on the route's "data" function has returning but isn't suitable to live in multiple data function across many routes due to code duplication.</p>
     <p>Examples of things we (ElderGuide.com) have done or have seen users do:</p>
     <ul>
@@ -71,26 +71,26 @@
     <p>Stacks are made available here so that strings can be added to the head or footer of the page easily.</p>
     <!-- HTML_TAG_END --></div>
 
-  <div class="list svelte-azdmmt"><strong>Props</strong> : <div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="Includes two functions: perf.start('thingToTrack') and perf.end('thingToTrack') which allows easily adding tracking to Elder.js' perf reporting which can be toggled under debug.performance in your elder.config.js file.">perf
+  <div class="list svelte-azdmmt"><strong>Props</strong> : <div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="Includes two functions: perf.start(&#39;thingToTrack&#39;) and perf.end(&#39;thingToTrack&#39;) which allows easily adding tracking to Elder.js&#39; perf reporting which can be toggled under debug.performance in your elder.config.js file.">perf
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that is passed to Svelte templates as the &quot;data&quot; prop.">data
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that represents the parameters required to generate a specific page on a specific route. This object originating from the all() query of a route.js file.">request
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An array of errors collected during the build process.">errors
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object of helpers loaded from `./src/helpers/index.js` in addition to the Elder.js provided helper functions.">helpers
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that is initially empty but is reserved for plugins and sites to add database or api access to.">query
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that represents all of the routes registered with Elder.js.">routes
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together to create the the cssString prop. This is mainly uses to collect the css strings emitted by SSR'd Svelte files.">cssStack
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together (along with cssStack) that are written to the <head> tag. If you are looking to customize the head you're probably better looking at the &quot;headString.&quot;">headStack
+      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together to create the the cssString prop. This is mainly uses to collect the css strings emitted by SSR&#39;d Svelte files.">cssStack
+      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together (along with cssStack) that are written to the &lt;head&gt; tag. If you are looking to customize the head you&#39;re probably better looking at the &quot;headString.&quot;">headStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of generally JS script tags that are required to be loaded before a Svelte component is hydrated. This is only written to the page when a Svelte component needs to be hydrated.">beforeHydrateStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; Svelte components that will be hydrated.">hydrateStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of user specific customJs strings that will to be merged together. This is written after the Svelte components.">customJsStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together that will be added to the footer tag.">footerStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object representing the elder.config.js and other details about the build.">settings
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="The 'next' object from Express or Polka when Elder.js is being used as a server.">next
+      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="The &#39;next&#39; object from Express or Polka when Elder.js is being used as a server.">next
       </div></div>
   <div class="list svelte-azdmmt"><strong>Mutable</strong> : <div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An array of errors collected during the build process.">errors
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="An object that is passed to Svelte templates as the &quot;data&quot; prop.">data
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together to create the the cssString prop. This is mainly uses to collect the css strings emitted by SSR'd Svelte files.">cssStack
-      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together (along with cssStack) that are written to the <head> tag. If you are looking to customize the head you're probably better looking at the &quot;headString.&quot;">headStack
+      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together to create the the cssString prop. This is mainly uses to collect the css strings emitted by SSR&#39;d Svelte files.">cssStack
+      </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of strings to be merged together (along with cssStack) that are written to the &lt;head&gt; tag. If you are looking to customize the head you&#39;re probably better looking at the &quot;headString.&quot;">headStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of generally JS script tags that are required to be loaded before a Svelte component is hydrated. This is only written to the page when a Svelte component needs to be hydrated.">beforeHydrateStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; Svelte components that will be hydrated.">hydrateStack
       </div><div class="code svelte-azdmmt" data-balloon-length="medium" data-balloon-pos="up" aria-label="A &quot;stack&quot; of user specific customJs strings that will to be merged together. This is written after the Svelte components.">customJsStack
@@ -155,7 +155,7 @@ const $$ejs = (par,eager)=>{
 
       
       requestIdleCallback(function(){
-        $$ejs({'header-ejs-FKFZTrLZzT' : { 'component' : 'Header.fef20fc9.js', 'props' : {"pages":[{"title":"Ukraine","slug":"ukraine"},{"title":"Ukraine Map","slug":"ukraine_map"},{"title":"Africa","slug":"2.africa.md"},{"title":"Asia","slug":"3.Asia.md"},{"title":"Nagarno-Karabakh","slug":"4.nagarno-karabakh.md"},{"title":"About us","slug":"999.about-us.md"}],"url":"/data/"}},})}, {timeout: 1000});</script>
+        $$ejs({'header-ejs-VDpjXXkMLW' : { 'component' : 'Header.c897bc10.js', 'props' : {"pages":[{"title":"Ukraine","slug":"ukraine"},{"title":"Ukraine Map","slug":"ukraine_map"},{"title":"Africa","slug":"2.africa.md"},{"title":"Asia","slug":"3.Asia.md"},{"title":"Nagarno-Karabakh","slug":"4.nagarno-karabakh.md"},{"title":"About us","slug":"999.about-us.md"}],"url":"/data/"}},})}, {timeout: 1000});</script>
     
     
     </body></html>
