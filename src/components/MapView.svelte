@@ -37,21 +37,26 @@
       return {
         ...feature,
         geometry: { ...feature.geometry, coordinates: [polygon] },
-      }
+      };
     });
   }
 
   async function morphPolygon(timestamp) {
-    delta = delta +  (Date.now() - lastCall) / 1000;
+    delta = delta + (Date.now() - lastCall) / 1000;
     lastCall = Date.now();
     console.log(delta, timestamp);
     if (current && delta <= 0.5) {
       const result = morphGeojson(current, delta * 2);
 
-      map.getSource('kherson_russia').setData(polygonSmooth({
-        type: 'FeatureCollection',
-        features: result,
-      }, {iterations: 2}));
+      map.getSource('kherson_russia').setData(
+        polygonSmooth(
+          {
+            type: 'FeatureCollection',
+            features: result,
+          },
+          { iterations: 2 },
+        ),
+      );
     }
 
     if (delta > 2) {
@@ -69,7 +74,25 @@
 
     map = new Map({
       container: mapContainer,
-      style: `https://api.maptiler.com/maps/streets/style.json?key=${apiKey}`,
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: 'raster',
+            tiles: ['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '&copy; OpenStreetMap Contributors',
+            maxzoom: 19,
+          },
+        },
+        layers: [
+          {
+            id: 'osm',
+            type: 'raster',
+            source: 'osm', // This must match the source key above
+          },
+        ],
+      },
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
       pitch: 70,
@@ -168,7 +191,7 @@
 </style>
 
 <div class="map-wrap">
-  <h3> {day.format('YYYY-MM-DD')}</h3>
+  <h3>{day.format('YYYY-MM-DD')}</h3>
   <a href="https://www.maptiler.com" class="watermark"
     ><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo" /></a>
   <div class="map" id="map" bind:this={mapContainer} />
