@@ -32,7 +32,16 @@
         alt: '',
         ignoreCssString: false,
       })}
+    {/if} 
+
+    {#if frontmatter.video}
+      <!-- svelte-ignore a11y-media-has-caption -->
+      <video width="100%" autoplay muted>
+        <source src="/videos/{frontmatter.video}" type="video/mp4">
+        Your browser does not support HTML video.
+      </video>  
     {/if}
+  
     <p class="text-xs font-light mt-0 text-slate-300 not-prose">Image: Ukraine ministry of Defense. Troops training</p>
     {@html html}
   </article>

@@ -18,10 +18,6 @@
   let current = null;
   let delta = 0;
   let lastCall = Date.now();
-  const fetchNextValue = async () => {
-    day = day.add(1, 'day');
-    nextValue = await fetch(`/geojson/ukraine/${day.format('YYYY-MM-DD')}.json`).then((res) => res.json());
-  };
 
   function rotateCamera(timestamp) {
     // clamp the rotation between 0 -360 degrees
@@ -33,10 +29,6 @@
 
   function morphGeojson(resultGeojson, moment) {
     return resultGeojson.features.map((feature) => {
-      // const polygon = interpolate(initialFeature.geometry.coordinates[0], feature.geometry.coordinates[0], {
-      //   string: false,
-      // });
-
       const polygon = feature.geometry.coordinates[0].map((coord, key) => [
         linearInterpolator(feature.properties.oldPointsMap[key][0], coord[0], moment),
         linearInterpolator(feature.properties.oldPointsMap[key][1], coord[1], moment),
