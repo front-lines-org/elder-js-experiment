@@ -11,9 +11,9 @@
 
 {#if !frontmatter.mapView}
   <div class="grid overflow-hidden grid-lines lg:grid-cols-6 md:grid-cols-4 grid-rows-8 sm:grid-cols-2">
-    <div class="box col-start-1"><InsetBorder><BlogTeaser blog={data.markdown.blog[1]} {helpers} /></InsetBorder></div>
+    <div class="box col-start-1"><InsetBorder><BlogTeaser blog={data.markdown.blog[2]} {helpers} /></InsetBorder></div>
     <div class="box row-span-2 col-span-4">
-      <InsetBorder><BlogTeaser blog={data.markdown.blog[1]} {helpers} showExcerpt/></InsetBorder>
+      <InsetBorder><BlogTeaser blog={data.markdown.blog[0]} {helpers} showExcerpt/></InsetBorder>
     </div>
     <div class="box row-start-1 row-span-6 col-start-6">
       <InsetBorder>
@@ -29,12 +29,21 @@
         <hr />
         <div class="box"><BlogTeaser showPublicationDate showAuthor={false} showCategory={false} showExcerpt={false} showImage={false} blog={data.markdown.blog[9]} {helpers} /></div>
         <hr />
+        <div class="box"><BlogTeaser showPublicationDate showAuthor={false} showCategory={false} showExcerpt={false} showImage={false} blog={data.markdown.blog[10]} {helpers} /></div>
+        <hr />
+        <div class="box"><BlogTeaser showPublicationDate showAuthor={false} showCategory={false} showExcerpt={false} showImage={false} blog={data.markdown.blog[11]} {helpers} /></div>
+        <hr />
+        <div class="box"><BlogTeaser showPublicationDate showAuthor={false} showCategory={false} showExcerpt={false} showImage={false} blog={data.markdown.blog[12]} {helpers} /></div>
       </InsetBorder>
     </div>
     <div class="box"><InsetBorder><BlogTeaser blog={data.markdown.blog[4]} {helpers} /></InsetBorder></div>
-    <div class="box"><InsetBorder><BlogTeaser blog={data.markdown.blog[3]} {helpers} /></InsetBorder></div>
+    <div class="box"><InsetBorder><BlogTeaser blog={data.markdown.blog[0]} {helpers} /></InsetBorder></div>
     <div class="box col-span-4">
-      <InsetBorder><ArticlePreview blog={data.markdown.blog[9]} {helpers} /></InsetBorder>
+      <InsetBorder><ArticlePreview blog={data.markdown.blog[11]} {helpers} /></InsetBorder>
+    </div>
+    <div class="box"><InsetBorder><BlogTeaser blog={data.markdown.blog[13]} {helpers} /></InsetBorder></div>
+    <div class="box col-span-4">
+      <InsetBorder><ArticlePreview blog={data.markdown.blog[1]} {helpers} /></InsetBorder>
     </div>
   </div>
 {:else}

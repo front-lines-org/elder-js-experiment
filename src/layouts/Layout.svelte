@@ -18,6 +18,10 @@
   <!-- Material Icons -->
   <title>Front Lines</title>
   <link href="/tailwind.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  />
   <script>
     document.addEventListener('ejs', (e) => {
       console.log('Layout.svelte > Component Mount Detail', e.detail);

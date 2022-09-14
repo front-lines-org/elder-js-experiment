@@ -5,13 +5,13 @@
       </Section>
       <Section align="end" toolbar>
         <IconButton class="material-icons" aria-label="Download"
-          >file_download</IconButton
+          >search</IconButton
         >
         <IconButton class="material-icons" aria-label="Print this page"
-          >print</IconButton
+          >more_vert</IconButton
         >
         <IconButton class="material-icons" aria-label="Bookmark this page"
-          >bookmark</IconButton
+          >menu</IconButton
         >
       </Section>
     </Row>
