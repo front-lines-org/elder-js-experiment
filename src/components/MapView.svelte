@@ -19,6 +19,11 @@
   let delta = 0;
   let lastCall = Date.now();
 
+  const fetchNextValue = async () => {
+    day = day.add(1, 'day');
+    nextValue = await fetch(`/geojson/ukraine/${day.format('YYYY-MM-DD')}.json`).then((res) => res.json());
+  };
+
   function rotateCamera(timestamp) {
     // clamp the rotation between 0 -360 degrees
     // Divide timestamp by 100 to slow rotation to ~10 degrees / sec
@@ -45,8 +50,8 @@
     delta = delta + (Date.now() - lastCall) / 1000;
     lastCall = Date.now();
     console.log(delta, timestamp);
-    if (current && delta <= 0.5) {
-      const result = morphGeojson(current, delta * 2);
+    if (current && delta <= 1) {
+      const result = morphGeojson(current, delta);
 
       map.getSource('kherson_russia').setData(
         polygonSmooth(
