@@ -7,14 +7,7 @@ author: '@pirocorp'
 category: 'Report'
 ---
 
-
-
-# Belarus-Kyiv axis
-
-Kyiv axis of the 29th, 35th, + 36th Combined Arms Armies. Note I'll still cover Hostomel/Bucha/Irpin fighting in a separate thread.
-
-
-# 25.02.22
+## 25.02.22
 
 Russian forces quickly took Chernobyl close to the Belarus border
 {{video}}
@@ -59,7 +52,7 @@ https://user-images.githubusercontent.com/34960418/160698024-b1a02389-84d6-489f-
 {{/video}}
 
 
-# 26.02.22
+## 26.02.22
 
 On 25/02/22, UAF destroyed a key bridge in Ivankiv on the Teteriv River. RuAF forces nevertheless bypassed Ivankiv continuing to Kyiv. RuAF entered Ivankiv on 26th but fighting continued in or around for a week. Here some 5th Guards Tank Brigade losses.
 
@@ -70,7 +63,7 @@ Two Russian T-72B tanks and BTR-80 APC were destroyed during the attack on Russi
 ![image](https://user-images.githubusercontent.com/34960418/160698315-086fda7f-c994-4377-af1c-181742b2c1a5.png)
 
 
-# 05.03.22
+## 05.03.22
 
 Meanwhile to NW of Ivankiv elements of 29th Combined Army Army followed later. Its believed they will guard west flank of push to Kyiv.
 
@@ -92,7 +85,7 @@ The camouflaged Buk air defence system in video is probably guarding this pontoo
 https://user-images.githubusercontent.com/34960418/160700279-204f5c7b-cc0f-4851-8293-3621e4917529.mp4
 
 
-# 19.03.22
+## 19.03.22
 
 I guess the bridge might be targeted by air or artillery. But if UAF was to go sneaky on it, be aware there is a BMP-1 + squad from 69 Covering Brigade at 51.253337, 29.404691 also T-72B3 nearby. Elsewhere a TOS-1A + TZM-T.
 {{video}}
