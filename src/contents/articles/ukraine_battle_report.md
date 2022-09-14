@@ -1,3 +1,11 @@
+---
+title:  Battle of Makariv 27.02.2022 - 23.03.2022
+shortDescription: Report of battle of Makariv in the russion invasion of Ukraine.
+description: Report of battle of Makariv in the russion invasion of Ukraine.
+img: 'ukraine(27).jpg'
+author: '@pirocorp'
+category: 'News'
+---
 
 # Battle of Makariv 27.02.2022 - 23.03.2022
 
