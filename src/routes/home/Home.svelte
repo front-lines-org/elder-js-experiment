@@ -10,6 +10,7 @@
     ...hook,
     link: helpers.permalinks.hooks({ slug: hook.hook.toLocaleLowerCase() }),
   }));
+
 </script>
 
 <style>
@@ -64,6 +65,7 @@
       grid-template-columns: 50% 50%;
     }
   }
+
 </style>
 
 <svelte:head>
@@ -104,7 +106,9 @@
 <div class="blog">
   <div class="entries">
     {#each data.markdown.blog as blog}
-      <BlogTeaser {blog} {helpers} />
+      <div class="p-2">
+        <BlogTeaser {blog} {helpers} />
+      </div>
     {/each}
   </div>
 </div>

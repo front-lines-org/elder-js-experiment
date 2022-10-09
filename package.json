@@ -51,6 +51,9 @@
     "svelte": "^3.38.3",
     "svelte-preprocess": "^4.6.9",
     "tailwindcss": "^3.1.6",
+    "textlint-rule-ginger": "^2.2.1",
+    "textlint-rule-stop-words": "^3.0.1",
+    "textlint-rule-write-good": "^2.0.0",
     "typescript": "^4.7.4",
     "vanilla-lazyload": "^17.8.3"
   },
@@ -72,7 +75,8 @@
     "postcss": "8.2.8",
     "prettier": "^2.1.2",
     "prettier-plugin-svelte": "^2.2.0",
-    "rollup": "^2.41.1"
+    "rollup": "^2.41.1",
+    "textlint": "^12.2.2"
   },
   "author": "Nick Reese",
   "license": "MIT",
